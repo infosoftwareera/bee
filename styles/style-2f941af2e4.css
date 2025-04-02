@@ -1,0 +1,640 @@
+.theme-text {
+    display: inline;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    background: linear-gradient(178deg, #fffeee 0, #fff67f 32%, #fe9400 56%, #ffed39 100%);
+    background-clip: text;
+    -webkit-background-clip: text
+}
+
+.f-72 {
+    font-size: .96rem !important
+}
+
+.f-60 {
+    font-size: .8rem !important
+}
+
+.f-32 {
+    font-size: .42667rem !important
+}
+
+html {
+    background: #31030e
+}
+
+body {
+    background: #31030e
+}
+
+body .wrapper {
+    width: 10rem;
+    min-height: 100%;
+    background: #31030e;
+    overflow: hidden;
+    margin: 0 auto
+}
+
+body .wrapper .subtitle {
+    height: .96rem;
+    font-weight: 700;
+    font-size: .48rem;
+    color: #fff;
+    line-height: .96rem;
+    text-align: center;
+    font-style: normal
+}
+
+body .wrapper .container-1 {
+    width: 10rem;
+    height: 14.90667rem;
+    background: url(../images/container_1_bg-b0bfa17cf1.webp) no-repeat center;
+    background-size: 100%;
+    position: relative;
+    margin: 0 auto
+}
+
+body .wrapper .container-1 .logo {
+    position: absolute;
+    top: .37333rem;
+    left: .37333rem;
+    width: 1.6rem
+}
+
+body .wrapper .container-1 .title {
+    font-weight: 700;
+    font-size: .58667rem;
+    color: #acacac;
+    line-height: .96rem;
+    text-align: center;
+    font-style: normal;
+    padding-top: 1.06667rem;
+    width: 8.34667rem;
+    height: 2.13333rem;
+    background: url(../images/title-56c631f9b9.webp) no-repeat center;
+    background-size: 8.34667rem;
+    margin: 0 auto;
+    position: relative;
+    top: .93333rem
+}
+
+body .wrapper .container-1 .amount {
+    font-weight: 700;
+    font-size: .96rem;
+    text-align: center;
+    margin: 0 auto
+}
+
+body .wrapper .container-1 .amount span:first-child {
+    font-size: .85333rem
+}
+
+body .wrapper .container-1 .airplane {
+    width: 5.57333rem;
+    height: 3.25333rem;
+    position: absolute;
+    right: -1.33333rem;
+    top: 4rem;
+    background: url(../images/airplane-c91b5e6c06.webp) no-repeat center;
+    background-size: 100%;
+    animation: 15s flying infinite linear;
+    transform: translate(0, 0) scale(.24)
+}
+
+body .wrapper .container-1 .jackpot {
+    width: 8.32rem;
+    height: 3.78667rem;
+    background: url(../images/jackpot_number-df85eed4d0.webp) no-repeat center;
+    background-size: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    overflow: visible;
+    transform: translate(-50%)
+}
+
+body .wrapper .container-1 .jackpot .amount {
+    position: absolute;
+    bottom: .42667rem;
+    overflow: visible;
+    font-style: italic;
+    left: 50%;
+    transform: translateX(-50%);
+    letter-spacing: 0;
+    line-height: 1.2
+}
+
+body .wrapper .container-1 .jackpot .amount span {
+    font-size: .77333rem
+}
+
+body .wrapper .container-2 {
+    width: 8.29333rem;
+    height: 6.24rem;
+    background: url(../images/container_2_bg-4192c6bd7e.webp) no-repeat center;
+    background-size: 100%;
+    margin: 1.6rem auto .66667rem auto;
+    position: relative
+}
+
+body .wrapper .container-2 .game {
+    width: 3.52rem;
+    height: 7.34667rem;
+    background: url(../images/container_2_game-9099e89150.webp) no-repeat center;
+    background-size: 100%;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%)
+}
+
+body .wrapper .container-3 {
+    width: 100%;
+    margin-top: 1.33333rem
+}
+
+body .wrapper .container-3 li {
+    width: 9.14667rem;
+    height: 3.2rem;
+    margin: .32rem auto
+}
+
+body .wrapper .container-3 li:nth-child(1) {
+    background: url(../images/banner2-0d2912f61b.webp) no-repeat center;
+    background-size: 100%
+}
+
+body .wrapper .container-3 li:nth-child(2) {
+    background: url(../images/banner1-d5dff570bd.webp) no-repeat center;
+    background-size: 100%
+}
+
+body .wrapper .container-4 {
+    width: 10rem;
+    height: 8rem;
+    margin: .26667rem auto;
+    background: url(../images/container_4_bg-5e4a3f6409.webp) no-repeat center;
+    background-size: 100%;
+    position: relative
+}
+
+body .wrapper .container-4 ul {
+    width: 9.14667rem;
+    display: flex;
+    position: absolute;
+    bottom: .4rem;
+    left: .42667rem;
+    justify-content: space-between
+}
+
+body .wrapper .container-4 ul li {
+    width: 2.82667rem;
+    height: 2.66667rem;
+    background: url(../images/container_4_item_bg-3f276b1bfd.webp) no-repeat center;
+    background-size: 100%
+}
+
+body .wrapper .container-4 ul li img {
+    width: 1.06667rem;
+    height: 1.06667rem;
+    display: block;
+    margin: .26667rem auto
+}
+
+body .wrapper .container-4 ul li .container-4-item-text {
+    width: calc(100% - .05333rem);
+    height: 1.02667rem;
+    margin: .02667rem;
+    background: linear-gradient(180deg, #71000a 0, #1c0806 100%);
+    border-radius: 0 0 .16rem .16rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+body .wrapper .container-4 ul li .container-4-item-text span {
+    font-weight: 700;
+    font-size: .32rem;
+    text-align: center
+}
+
+body .wrapper .container-5 {
+    width: 100%;
+    margin-top: .26667rem;
+    margin-bottom: .53333rem
+}
+
+body .wrapper .container-5 ul {
+    width: 28.48rem;
+    display: flex;
+    transform: translateX(0)
+}
+
+body .wrapper .container-5 ul:first-child {
+    animation: move 30s infinite linear
+}
+
+body .wrapper .container-5 ul:last-child {
+    margin-top: .26667rem;
+    transform: translateX(-17.65333rem);
+    animation: move1 30s infinite linear
+}
+
+body .wrapper .container-5 ul li {
+    width: 2.10667rem;
+    height: 3.04rem;
+    margin-right: .26667rem
+}
+
+body .wrapper .container-5 ul li img {
+    width: 100%
+}
+
+body .wrapper .container-6 {
+    width: 10rem;
+    height: 9.38667rem;
+    background: url(../images/container_6_bg-59f14f7a4a.webp) no-repeat center;
+    background-size: 100%;
+    position: relative
+}
+
+body .wrapper .container-6 ul {
+    width: 100%;
+    display: block
+}
+
+body .wrapper .container-6 ul li {
+    width: auto;
+    padding: .13333rem .2rem;
+    background: linear-gradient(180deg, #71000a 0, #1c0806 100%);
+    border-radius: .10667rem;
+    font-size: .29333rem;
+    font-weight: 700;
+    position: absolute;
+    line-height: .37333rem
+}
+
+body .wrapper .container-6 ul li:after {
+    width: .42667rem;
+    height: .42667rem;
+    content: "";
+    background: url(../images/selected-5574f79393.webp) no-repeat center;
+    background-size: 100%;
+    position: absolute;
+    right: -.13333rem;
+    top: -.13333rem
+}
+
+body .wrapper .container-6 ul li p {
+    color: #fde447
+}
+
+body .wrapper .container-6 ul li span {
+    color: #fff
+}
+
+body .wrapper .container-6 ul li:nth-child(1) {
+    width: 3.46667rem;
+    height: 1.14667rem;
+    left: .26667rem;
+    top: 1.33333rem
+}
+
+body .wrapper .container-6 ul li:nth-child(2) {
+    width: 2.68rem;
+    height: 1.52rem;
+    left: .8rem;
+    top: 3.46667rem
+}
+
+body .wrapper .container-6 ul li:nth-child(3) {
+    width: 2.06667rem;
+    height: 1.52rem;
+    left: .66667rem;
+    top: 6rem
+}
+
+body .wrapper .container-6 ul li:nth-child(4) {
+    width: 3.01333rem;
+    height: 1.12rem;
+    right: .53333rem;
+    top: 2.26667rem
+}
+
+body .wrapper .container-6 ul li:nth-child(5) {
+    width: 2.13333rem;
+    height: 1.92rem;
+    right: .53333rem;
+    top: 4.53333rem
+}
+
+body .wrapper .container-7 {
+    width: 9.14667rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: .26667rem 0
+}
+
+body .wrapper .container-7 li {
+    width: 2.82667rem;
+    height: 4rem;
+    position: relative
+}
+
+body .wrapper .container-7 li .container-7-item-text {
+    width: calc(100% - .05333rem);
+    height: 1.44rem;
+    margin: 0 .02667rem;
+    background: linear-gradient(180deg, #71000a 0, #1c0806 100%);
+    border-radius: 0 0 .16rem .16rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: .02667rem;
+    flex-direction: column
+}
+
+body .wrapper .container-7 li .container-7-item-text span {
+    font-weight: 700;
+    font-size: .37333rem;
+    text-align: center
+}
+
+body .wrapper .container-7 li .container-7-item-text>p {
+    color: #fff;
+    font-size: .29333rem;
+    font-weight: 700;
+    line-height: 1.1;
+    padding: 0 .26667rem
+}
+
+body .wrapper .container-7 li:nth-child(1) {
+    background: url(../images/container_7_item_1-16d9a0ec79.webp) no-repeat center;
+    background-size: 100%
+}
+
+body .wrapper .container-7 li:nth-child(2) {
+    background: url(../images/container_7_item_2-b9f7dafb57.webp) no-repeat center;
+    background-size: 100%
+}
+
+body .wrapper .container-7 li:nth-child(3) {
+    background: url(../images/container_7_item_3-a7998506ae.webp) no-repeat center;
+    background-size: 100%
+}
+
+body .wrapper .container-8 {
+    width: 28.48rem;
+    height: 4.66667rem;
+    padding-top: .8rem;
+    padding-bottom: 1.6rem;
+    display: flex;
+    flex-wrap: nowrap;
+    animation: move2 20s infinite linear
+}
+
+body .wrapper .container-8 ul {
+    display: flex;
+    width: 9.49333rem;
+    flex-wrap: wrap
+}
+
+body .wrapper .container-8 ul li {
+    width: 2.10667rem;
+    height: .96rem;
+    margin-right: .26667rem
+}
+
+body .wrapper .container-8 ul li img {
+    width: 100%
+}
+
+body .wrapper .download-btn {
+    position: fixed;
+    bottom: .26667rem;
+    left: 50%;
+    transform: translate(-50%);
+    width: 9.14667rem;
+    height: 1.12rem;
+    background: linear-gradient(180deg, #fffeee 0, #fff67f 42%, #fe9400 72%, #ffed39 100%);
+    border-radius: .16rem;
+    -o-border-image: linear-gradient(180deg, #fdfdfb, #fed980) 2 2;
+    border-image: linear-gradient(180deg, #fdfdfb, #fed980) 2 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .1s
+}
+
+body .wrapper .download-btn .light {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 0
+}
+
+body .wrapper .download-btn .light:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1.73333rem;
+    height: 1.12rem;
+    background: url(../images/light-552b45f972.webp) no-repeat center;
+    background-size: 100%;
+    transform: translateX(-10rem);
+    animation: light 5s infinite linear
+}
+
+body .wrapper .download-btn span {
+    font-weight: 700;
+    font-size: .42667rem;
+    line-height: .58667rem;
+    background: linear-gradient(90deg, #71000a 0, #1c0806 100%);
+    background-clip: text;
+    -webkit-background-clip: text
+}
+
+body .wrapper .download-btn:active {
+    opacity: .9;
+    transform: translate(-50%, .01333rem)
+}
+
+body .wrapper .download-btn .download-btn-get {
+    width: 3.46667rem;
+    height: 1.01333rem;
+    position: absolute;
+    right: 0;
+    top: -.93333rem;
+    background: url(../images/download_get-f5d56c8957.webp) no-repeat center;
+    background-size: 100%;
+    font-weight: 500;
+    font-size: .32rem;
+    color: #fff;
+    padding-left: .13333rem;
+    line-height: .8rem;
+    animation: anim-get 6s infinite linear;
+    animation-delay: 2s
+}
+
+.google-top {
+    position: relative
+}
+
+.google-top span:last-child {
+    padding-left: .26667rem
+}
+
+.google-top:after {
+    width: 1.33333rem;
+    height: 1.46667rem;
+    position: absolute;
+    left: 3.86667rem;
+    top: -.53333rem;
+    content: "";
+    background: url(../images/google-top-98c3c51bcb.webp) no-repeat center;
+    background-size: 90%;
+    display: block
+}
+
+@keyframes anim-get {
+    0% {
+        transform: scale(.2);
+        transform-origin: left bottom
+    }
+    10% {
+        transform: scale(1);
+        transform-origin: left bottom
+    }
+    45% {
+        transform: translateX(-.06667rem) scale(1);
+        transform-origin: left bottom
+    }
+    50% {
+        transform: translateX(.06667rem) scale(1);
+        transform-origin: left bottom
+    }
+    55% {
+        transform: translateX(-.06667rem) scale(1);
+        transform-origin: left bottom
+    }
+    60% {
+        transform: translateX(.06667rem) scale(1);
+        transform-origin: left bottom
+    }
+    65% {
+        transform: translateX(0) scale(1);
+        transform-origin: left bottom
+    }
+    100% {
+        transform: scale(1);
+        transform-origin: left bottom
+    }
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(-18.98667rem)
+    }
+}
+
+@keyframes move1 {
+    0% {
+        transform: translateX(-17.65333rem)
+    }
+    100% {
+        transform: translateX(1.33333rem)
+    }
+}
+
+@keyframes move2 {
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(-18.98667rem)
+    }
+}
+
+@keyframes flying {
+    0% {
+        transform: translate(2.66667rem, .66667rem) scale(.24)
+    }
+    10% {
+        transform: translate(-1.33333rem, 2.66667rem) scale(1)
+    }
+    15% {
+        transform: translate(-1.33333rem, 2.8rem) scale(1)
+    }
+    20% {
+        transform: translate(-1.33333rem, 2.66667rem) scale(1)
+    }
+    25% {
+        transform: translate(-1.33333rem, 2.8rem) scale(1)
+    }
+    30% {
+        transform: translate(-1.33333rem, 2.66667rem) scale(1)
+    }
+    35% {
+        transform: translate(-1.33333rem, 2.8rem) scale(1)
+    }
+    40% {
+        transform: translate(-1.33333rem, 2.66667rem) scale(1)
+    }
+    45% {
+        transform: translate(-1.33333rem, 2.8rem) scale(1)
+    }
+    50% {
+        transform: translate(-1.33333rem, 2.66667rem) scale(1)
+    }
+    55% {
+        transform: translate(-1.33333rem, 2.8rem) scale(1)
+    }
+    60% {
+        transform: translate(-1.33333rem, 2.66667rem) scale(1)
+    }
+    65% {
+        transform: translate(-1.33333rem, 2.8rem) scale(1)
+    }
+    70% {
+        transform: translate(-1.33333rem, 2.66667rem) scale(1)
+    }
+    75% {
+        transform: translate(-1.33333rem, 2.8rem) scale(1)
+    }
+    80% {
+        transform: translate(-1.33333rem, 2.66667rem) scale(1)
+    }
+    85% {
+        transform: translate(-1.33333rem, 2.8rem) scale(1)
+    }
+    90% {
+        transform: translate(-1.33333rem, 2.66667rem) scale(1)
+    }
+    95% {
+        transform: translate(-1.33333rem, 2.8rem) scale(1)
+    }
+    100% {
+        transform: translate(-1.33333rem, 2.66667rem) scale(1)
+    }
+}
+
+@keyframes light {
+    0% {
+        transform: translateX(-10rem)
+    }
+    30% {
+        transform: translateX(10rem)
+    }
+    100% {
+        transform: translateX(10rem)
+    }
+}

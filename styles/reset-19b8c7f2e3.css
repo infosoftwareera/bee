@@ -1,0 +1,67 @@
+@charset "UTF-8";
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: .21333rem;
+    color: #333;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle
+}
+
+button,
+input,
+textarea {
+    border: none;
+    outline: 0;
+    background: 0 0;
+    font-family: inherit
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit
+}
+
+a,
+button {
+    -webkit-tap-highlight-color: transparent
+}
+
+html {
+    font-size: .21333rem
+}
+
+body {
+    touch-action: manipulation
+}
+
+body,
+html {
+    height: 100%
+}
